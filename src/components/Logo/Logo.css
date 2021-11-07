@@ -1,0 +1,16 @@
+.Tilt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+    transform-style: preserve-3d;
+  }
+   
+  .Tilt-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(5px);
+  }
